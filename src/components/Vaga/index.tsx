@@ -1,4 +1,4 @@
-import styles from './Vaga.module.css'
+import styles from './styles.js'
 
 type Props = {
   titulo: string
