@@ -9,7 +9,7 @@ export const Formulario = styled.form`
   margin-top: 40px;
 `
 export const Button = styled.button`
-background-color: var(--cor-principal);
+  background-color: var(--cor-principal);
   border: 1px solid var(--cor-principal);
   height: 40px;
   padding: 0 16px;
@@ -22,4 +22,3 @@ export const Input = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-principal);
 `
-

@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Lista = styled.ul`
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
@@ -9,5 +9,5 @@ display: grid;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-}
+  }
 `

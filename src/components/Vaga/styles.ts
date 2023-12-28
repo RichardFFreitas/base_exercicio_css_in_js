@@ -1,25 +1,24 @@
 import styled from 'styled-components'
 
-
 export const Lista = styled.li`
   border: 1px solid var(--cor-principal);
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
   padding: 16px;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
   border-radius: 8px;
 
   :hover {
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
-}
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+  }
 
-a {
-  border-color:var(--cor-principal);
-  background-color:var(--cor-secundaria);
-  color:var(--cor-principal);
-  transition: all ease .3s;
-}
+  a {
+    border-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    transition: all ease 0.3s;
+  }
 `
 
 export const VagaTitulo = styled.h3`
@@ -28,8 +27,7 @@ export const VagaTitulo = styled.h3`
 `
 
 export const VagaLink = styled.a`
-
-border-color: var(--cor - secundaria);
+  border-color: var(--cor - secundaria);
   background-color: var(--cor - principal);
   color: var(--cor - secundaria);
   display: inline - block;
@@ -41,7 +39,7 @@ border-color: var(--cor - secundaria);
   border-radius: 8px;
   text-align: center;
 
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     display: block;
   }
 `
